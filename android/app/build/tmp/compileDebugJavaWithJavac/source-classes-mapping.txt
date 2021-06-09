@@ -1,0 +1,14 @@
+com/weatherapp/MainApplication.java
+ com.weatherapp.MainApplication
+ com.weatherapp.MainApplication$1
+com/weatherapp/BuildConfig.java
+ com.weatherapp.BuildConfig
+com/weatherapp/MainActivity.java
+ com.weatherapp.MainActivity
+com/weatherapp/ReactNativeFlipper.java
+ com.weatherapp.ReactNativeFlipper
+ com.weatherapp.ReactNativeFlipper$1
+ com.weatherapp.ReactNativeFlipper$2
+ com.weatherapp.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
