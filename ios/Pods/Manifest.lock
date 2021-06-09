@@ -236,7 +236,15 @@ PODS:
     - React-cxxreact (= 0.63.0)
     - React-jsi (= 0.63.0)
   - React-jsinspector (0.63.0)
+  - react-native-background-actions (2.6.0):
+    - React-Core
   - react-native-flipper (0.92.0):
+    - React-Core
+  - react-native-geolocation (2.0.2):
+    - React
+  - react-native-geolocation-service (5.3.0-beta.1):
+    - React
+  - react-native-maps (0.28.0):
     - React-Core
   - react-native-safe-area-context (3.2.0):
     - React-Core
@@ -379,7 +387,11 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
+  - react-native-background-actions (from `../node_modules/react-native-background-actions`)
   - react-native-flipper (from `../node_modules/react-native-flipper`)
+  - "react-native-geolocation (from `../node_modules/@react-native-community/geolocation`)"
+  - react-native-geolocation-service (from `../node_modules/react-native-geolocation-service`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -444,8 +456,16 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
+  react-native-background-actions:
+    :path: "../node_modules/react-native-background-actions"
   react-native-flipper:
     :path: "../node_modules/react-native-flipper"
+  react-native-geolocation:
+    :path: "../node_modules/@react-native-community/geolocation"
+  react-native-geolocation-service:
+    :path: "../node_modules/react-native-geolocation-service"
+  react-native-maps:
+    :path: "../node_modules/react-native-maps"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-RCTActionSheet:
@@ -508,7 +528,11 @@ SPEC CHECKSUMS:
   React-jsi: 254710f3a97e587427bfbf3011dacec2af66a1fc
   React-jsiexecutor: 0e0cb4e170ca72d4bb1179843d08dcbea3d100ac
   React-jsinspector: fc661eff8edbfb7e22119382c13f33bcadde0f3c
+  react-native-background-actions: dc827637ca075cf0e491b80bd32feb651fb54a21
   react-native-flipper: 51d058827cc04d89cd23cc4b1aa2d724c3d820bf
+  react-native-geolocation: cbd9d6bd06bac411eed2671810f454d4908484a8
+  react-native-geolocation-service: 4030de78cdeb93ebef1fdc1971668bea6c0bc59b
+  react-native-maps: 2d405b4e8cee0282e4c02bac434d81450dfea877
   react-native-safe-area-context: e471852c5ed67eea4b10c5d9d43c1cebae3b231d
   React-RCTActionSheet: aadd91a1d6cbfae50dd41f140004f816e9e47ade
   React-RCTAnimation: 7fa2ef6c0ef1e3f0b7d2261c827ec94412deb5e6
@@ -528,6 +552,6 @@ SPEC CHECKSUMS:
   Yoga: 7d2edc5b410474191962e6dee88ee67f9b328b6b
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 033a88b653d86cab19e77b18c5779e55a27291f0
+PODFILE CHECKSUM: aeaf7b50652d4e170f27d42c962f6c5e77e43e74
 
 COCOAPODS: 1.10.1

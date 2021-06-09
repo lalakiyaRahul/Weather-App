@@ -11,12 +11,18 @@ export default class NavigationServices extends Component {
 
   render() {
     return (
-        <NavigationContainer >
-                <Stack.Navigator>
-                    <Stack.Screen name="WeatherList" component={WeatherList} options={{  gestureEnabled: false }} />
-                    <Stack.Screen name="WeatherDetails" component={WeatherDetails} options={{  gestureEnabled: false }} />
-                </Stack.Navigator>
-            </NavigationContainer>
+      <NavigationContainer >
+        <Stack.Navigator>
+          <Stack.Screen name="WeatherList" component={WeatherList} options={{ gestureEnabled: false, headerStyle: {
+              backgroundColor: '#00804A',
+            }, }} />
+          <Stack.Screen name="WeatherDetails" component={WeatherDetails} options={{
+            gestureEnabled: false, headerStyle: {
+              backgroundColor: '#00804A',
+            },
+          }} />
+        </Stack.Navigator>
+      </NavigationContainer>
     );
   }
 }

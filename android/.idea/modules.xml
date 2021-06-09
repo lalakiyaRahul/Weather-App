@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeatherApp.iml" filepath="$PROJECT_DIR$/.idea/modules/WeatherApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WeatherApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WeatherApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/447940057/WeatherApp.react-native-background-actions.iml" filepath="$PROJECT_DIR$/.idea/modules/447940057/WeatherApp.react-native-background-actions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1771353425/WeatherApp.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1771353425/WeatherApp.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/733091275/WeatherApp.react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/.idea/modules/733091275/WeatherApp.react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-199653012/WeatherApp.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-199653012/WeatherApp.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1037441355/WeatherApp.react-native-flipper.iml" filepath="$PROJECT_DIR$/.idea/modules/-1037441355/WeatherApp.react-native-flipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1454998125/WeatherApp.react-native-geolocation-service.iml" filepath="$PROJECT_DIR$/.idea/modules/-1454998125/WeatherApp.react-native-geolocation-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/56016107/WeatherApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/56016107/WeatherApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-233837496/WeatherApp.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/-233837496/WeatherApp.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/830487121/WeatherApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/830487121/WeatherApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1351727468/WeatherApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1351727468/WeatherApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/880873388/WeatherApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/880873388/WeatherApp.react-native-screens.iml" />
     </modules>
   </component>
 </project>

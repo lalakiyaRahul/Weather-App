@@ -14,55 +14,111 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:4:5-67
 12-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:4:22-64
-13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.75.1] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.75.1] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
-16        android:name="com.weatherapp.MainApplication"
-16-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:11:9-86
-25-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:11:19-83
-26        <activity
-26-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:13:7-23:18
-27            android:name="com.weatherapp.MainActivity"
-27-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:16:9-86
-29            android:label="@string/app_name"
-29-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:17:9-40
-31            android:windowSoftInputMode="adjustResize" >
-31-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:18:9-51
-32            <intent-filter>
-32-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:20:13-65
-33-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:20:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:21:13-73
-35-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:21:23-70
-36            </intent-filter>
-37        </activity>
-38    </application>
-39
-40</manifest>
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:5:5-7:11
+13-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:6:9-63
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:9:5-68
+15-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.75.1] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.75.1] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->[:react-native-maps] /Users/chiragvyas/Desktop/React-nativePro/WeatherApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+17-->[:react-native-maps] /Users/chiragvyas/Desktop/React-nativePro/WeatherApp/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:11:5-36:19
+25        android:name="com.weatherapp.MainApplication"
+25-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:allowBackup="false"
+26-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:16:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:14:7-41
+30        android:label="@string/app_name"
+30-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:13:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:15:7-52
+32        android:theme="@style/AppTheme"
+32-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:17:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:8:9-44
+34        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+34-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:11:9-86
+34-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+35
+36        <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" />
+36-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:19:9-89
+36-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:19:18-86
+37
+38        <meta-data
+38-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:21:9-23:70
+39            android:name="com.google.android.geo.API_KEY"
+39-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:22:13-58
+40            android:value="AIzaSyDkDufi8ef060WBcYGs8r04e8E3yC5UvyM" />
+40-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:23:13-68
+41
+42        <activity
+42-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:25:7-35:18
+43            android:name="com.weatherapp.MainActivity"
+43-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:26:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:28:9-86
+45            android:label="@string/app_name"
+45-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:27:9-41
+46            android:launchMode="singleTask"
+46-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:29:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:30:9-51
+48            <intent-filter>
+48-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:31:9-34:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:32:13-65
+49-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:32:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:33:13-73
+51-->/Users/chiragvyas/Desktop/React-nativePro/WeatherApp/android/app/src/main/AndroidManifest.xml:33:23-70
+52            </intent-filter>
+53        </activity> <!-- Needs to be explicitly declared on P+ -->
+54        <uses-library
+54-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+55            android:name="org.apache.http.legacy"
+55-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+56            android:required="false" />
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+62
+63        <meta-data
+63-->[com.google.android.gms:play-services-basement:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+64            android:name="com.google.android.gms.version"
+64-->[com.google.android.gms:play-services-basement:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+65            android:value="@integer/google_play_services_version" />
+65-->[com.google.android.gms:play-services-basement:17.0.0] /Users/chiragvyas/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+66    </application>
+67
+68</manifest>
